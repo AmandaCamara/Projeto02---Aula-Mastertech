@@ -1,13 +1,23 @@
 body{
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff7f7;
 }
 
 h1{
     text-align: center;
     font-size: 55px;
+    color: red;
 }
 
-/* Macete para alinhar uma imagem no centro */
+@media screen and (max-width: 768px) {
+  h1{
+    color: red;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+}
+/* Macete para deixar uma imagem centralizada na página */
 .banner{
     width: 50%;
     margin: auto;
@@ -15,16 +25,38 @@ h1{
     margin-bottom: 10px;
 }
 
+.botao1{
+  color: white;
+  width: 120px;
+  font-size: 15px;
+  height: auto;
+  background-color: red;
+  margin: auto;
+  display: block;
+}
+
 .margin{
     margin: 0 5%;
 }
 
-#imagem10{
+.top5{
+  color: red;
+  font-style: italic;
+}
+
+.h2{
+font-family: 'Lobster', cursive;
+}
+#imagem10{  /* este é o ID mencionado no index.html */
     border: 1px solid red;
 }
 
+.p{
+  font-family: 'Montserrat', sans-serif;
+}
+
 section{
-    text-align: justify;
+    text-align: justify; /* texto justificado dentro dessa section */
 }
 
 footer{
